@@ -1,0 +1,45 @@
+{
+	"name": "timna/hyphenate",
+	"description": "Hyphenate is a Statamic addon providing a modifier to hyphenate strings based on the TeX-Hyphenation algorithm provided by the org_heigl/hyphenator package.",
+	"version": "0.0.0",
+	"keywords" : [ "hyphenation", "hyphenate", "tex", "tex-hyphenation", "statamic", "statamic-addon", "statamic-modifier"],
+	"license" : "MIT",
+	"autoload": {
+		"psr-4": {
+			"Timna\\Hyphenate\\": "src"
+		}
+	},
+	"require": {
+		"org_heigl/hyphenator": "^3.0"
+	},
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^3.15"
+	},
+	"authors": [
+		{
+			"name": "Tim Grochowski",
+			"email": "dev@tim-grochowski.de"
+		}
+	],
+	"scripts": {
+		"lint": [
+			"php-cs-fixer fix ./src"
+		]
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"preferred-install": "dist",
+		"sort-packages": true
+	},
+	"extra": {
+    "statamic": {
+      "name": "Hyphenate",
+			"description": "Hyphenate is a Statamic addon providing a modifier to hyphenate strings based on the TeX-Hyphenation algorithm provided by the org_heigl/hyphenator package."
+    },
+    "laravel": {
+      "providers": [
+        "Timna\\Hyphenate\\ServiceProvider"
+      ]
+    }
+  }
+}
