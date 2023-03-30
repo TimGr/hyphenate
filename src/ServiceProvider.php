@@ -1,9 +1,9 @@
 <?php
 
-namespace Timna\Hyphenate;
+namespace Timnarr\Hyphenate;
 
 use Statamic\Providers\AddonServiceProvider;
-use Timna\Hyphenate\Modifiers\Hyphenate;
+use Timnarr\Hyphenate\Modifiers\Hyphenate;
 
 class ServiceProvider extends AddonServiceProvider
 {

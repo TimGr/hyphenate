@@ -1,6 +1,6 @@
 <?php
 
-namespace Timna\Hyphenate\Modifiers;
+namespace Timnarr\Hyphenate\Modifiers;
 
 use Illuminate\Support\Facades\App;
 use Org\Heigl\Hyphenator\Hyphenator;
