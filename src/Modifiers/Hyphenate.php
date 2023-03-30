@@ -32,7 +32,7 @@ class Hyphenate extends Modifier
 
 		$options = new HyphenatorOptions();
 		$options
-			->setHyphen('+')
+			->setHyphen('&shy;')
 			->setDefaultLocale($supportedLocales[$statamicsLocale])
 			->setRightMin(3)
 			->setLeftMin(4)
