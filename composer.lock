@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d2175cc8f1a20054dff7326540d2b0b",
+    "content-hash": "9186577907d3e4b14dd20d515c80b292",
     "packages": [
         {
             "name": "org_heigl/hyphenator",

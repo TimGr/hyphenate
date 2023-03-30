@@ -1,7 +1,6 @@
 {
 	"name": "timnarr/hyphenate",
 	"description": "Hyphenate is a Statamic addon providing a modifier to hyphenate strings based on the TeX-Hyphenation algorithm provided by the org_heigl/hyphenator package.",
-	"version": "1.0.0",
 	"keywords" : [ "hyphenation", "hyphenate", "tex", "tex-hyphenation", "statamic", "statamic-addon", "statamic-modifier"],
 	"license" : "MIT",
 	"autoload": {
