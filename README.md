@@ -3,6 +3,11 @@ Hyphenate is a Statamic addon providing a modifier to hyphenate strings based on
 
 The Hyphenate modifier will output a “soft hyphen” using the HTML entity `&shy;`. This entity marks wehre the browser should break if necessary.
 
+## Install via Composer
+```
+composer require timnarr/hyphenate
+```
+
 ## Usage
 
 ```
