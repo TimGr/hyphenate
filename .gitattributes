@@ -1,0 +1,6 @@
+.gitattributes export-ignore
+.github/ export-ignore
+.gitignore export-ignore
+.editorconfig export-ignore
+.php-cs-fixer.cache export-ignore
+.php-cs-fixer.php export-ignore
