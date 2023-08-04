@@ -16,7 +16,6 @@ composer require timnarr/hyphenate
 
 Read more about Statamic modifiers here https://statamic.dev/modifiers
 
-
 ## Example
 Let's assume we have a multilang page and a heading `title`, which holds "Hyphenation" in english and "Silbentrennung" in german.
 
@@ -31,6 +30,8 @@ And the final HTML output is:
   <h1>Silben&shy;tren&shy;nung</h1>
   <h1>Hyphen&shy;a&shy;tion</h1>
 ```
+## Note
+Frequent use of the `hyphenate` modifier, especially on long texts, can affect your page performance and slow down your website. Please use in combination with caching!
 
 ## License
 MIT License © 2023-present Tim Grochowski
